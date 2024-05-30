@@ -1,0 +1,5 @@
+rootProject.name = 'spring-micro-application'
+
+includeBuild('eureka-server')
+includeBuild('user-service')
+includeBuild('api-gateway')
