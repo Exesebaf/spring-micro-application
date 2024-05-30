@@ -7,9 +7,9 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
+              <build path="$PROJECT_DIR$/apigateway" name="apigateway">
                 <projects>
-                  <project path="$PROJECT_DIR$/api-gateway" />
+                  <project path="$PROJECT_DIR$/apigateway" />
                 </projects>
               </build>
               <build path="$PROJECT_DIR$/eureka-server" name="eureka-server">
@@ -30,17 +30,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/api-gateway" />
+            <option value="$PROJECT_DIR$/apigateway" />
             <option value="$PROJECT_DIR$/eureka-server" />
             <option value="$PROJECT_DIR$/user-service" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/apigateway" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/api-gateway" />
+            <option value="$PROJECT_DIR$/apigateway" />
           </set>
         </option>
       </GradleProjectSettings>
